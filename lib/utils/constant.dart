@@ -7,3 +7,12 @@ enum Tags {
   Support,
   Marksman,
 }
+
+Map<String, String> TagsMap = {
+  "Fighter": "战士",
+  "Tank": "坦克",
+  "Mage": "法师",
+  "Assassin": "刺客",
+  "Support": "辅助",
+  "Marksman": "射手",
+};
