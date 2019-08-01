@@ -58,6 +58,7 @@ class _HeroItemState extends State<HeroItem> {
               width: 20,
             ),
             CircleAvatar(
+              radius: 35,
               backgroundImage:
                   NetworkImage(Utils.getHeroAvatar(widget.data.image["full"])),
             ),

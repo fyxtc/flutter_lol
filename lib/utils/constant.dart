@@ -8,7 +8,7 @@ enum Tags {
   Marksman,
 }
 
-Map<String, String> TagsMap = {
+const Map<String, String> TagsMap = {
   "Fighter": "战士",
   "Tank": "坦克",
   "Mage": "法师",
