@@ -17,8 +17,6 @@ class _HomeViewState extends State<HomeView>
   TabController _tabController;
   List<dynamic> heroList = [];
   int _selectedIndex = 0;
-  String _searchString;
-  bool isSearching  = false;
 
   @override
   void initState() {
@@ -84,17 +82,6 @@ class _HomeViewState extends State<HomeView>
         //     ],
         //   )
         // ]),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.search),
-            onPressed: () {
-              print("search $_searchString");
-              setState(() {
-                isSearching = true;
-              });
-            },
-          )
-        ],
         title: _selectedIndex == 1
             ? Text("Settings")
             : TabBar(
